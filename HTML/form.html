@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Example</title>
+</head>
+<body>
+    <h2>Form Example</h2>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" 
+            type="text" 
+            name="firstName" 
+            placeholder="Enter First Name"
+            value="Karan"
+            readonly
+            minlength="2"
+            required
+         />
+        <br /><br />
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" 
+            type="text" 
+            name="lastName"
+            pattern="[A-Z]{1}[a-z]+"
+            title="First Letter should be capital followed by letters only"
+            placeholder="Enter Last Name" />
+        <br /><br />
+
+        <label for="mobile">Mobile Number:</label>
+        <input id="mobile" 
+            name="mobile"
+            placeholder="Enter Mobile Number"
+            pattern="[6789][0-9]{9}"
+            title="Mobile Number should have 10 digits"
+            type="text"
+        >
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input id="email" 
+            name="email"
+            placeholder="Enter Email"
+            pattern="[a-zA-Z0-9]+[@]{1}[a-z]+[.]{1}[a-z]+"
+            title="Enter Email Address in valid format like xxxxxx@xxxxx.xxxx"
+            type="text"
+            required
+        >
+        <br /><br />
+
+        <label>Gender:</label>
+        
+        <input id="male" 
+            name="gender"
+            value="male"
+            type="radio">
+        <label for="male">Male</label>
+    
+        <input id="female" 
+            name="gender"
+            value="female"
+            type="radio">
+        <label for="female">Female</label>
+
+        <input id="other" 
+            name="gender"
+            value="other"
+            type="radio">
+        <label for="other">Other</label>
+        <br /><br />
+
+
+        <label for="">Sports:</label>
+        <br/>
+
+        <input id="cricket" 
+            name="sports" 
+            value="cricket" 
+            type="checkbox" />
+        <label for="cricket">Cricket</label>
+        <br/>
+
+        <input id="Basketball" 
+            name="sports" 
+            value="Basket Ball" 
+            type="checkbox" />
+        <label for="Basketball">Basketball</label>
+        <br/>
+
+        <input id="soccer" 
+            name="sports" 
+            value="soccer" 
+            type="checkbox" />
+        <label for="soccer">Football</label>
+        <br/>
+
+        <input id="baseball" 
+            name="sports" 
+            value="baseball" 
+            type="checkbox" />
+        <label for="baseball">Base ball</label>
+        <br /><br />
+
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="null">Please Select</option>
+            <option value="1">Pune</option>
+            <option value="2">Mumbai</option>
+            <option value="3">Delhi</option>
+            <option value="4">Banguluru</option>
+            <option value="5">Kolkata</option>
+            <option value="6">Chennai</option>
+            <option value="7">Hydrabad</option>
+        </select>
+        <br /><br />
+
+        
+        <label for="dob">Date Of Birth:</label>
+        <input id="dob"
+            type="date" 
+            name="dob"/>
+        <br /><br />
+
+        <label for="color">Pick Color:</label>
+        <input id="color"
+            type="color" 
+            name="color"/>
+        <br /><br />
+
+        <label>Resume Upload:</label>
+        <input type="file" />
+        <br /><br />
+
+        <label for="desc">Description</label>
+        <textarea placeholder="Description Text" id="desc" name="description" cols="50" rows="8"></textarea>
+        <br /><br />
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
