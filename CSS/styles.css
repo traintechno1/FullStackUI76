@@ -1,0 +1,43 @@
+:root{
+    --text-color: black;
+    --bg-color: cadetblue;
+    --bg-body: wheat;
+}
+
+body{
+    background-color: var(--bg-body);
+}
+
+/* div{
+    font-size: 22px; 
+    color: green; 
+    background-color: azure;
+} */
+
+.para{ 
+    color: var(--text-color);
+    background-color: var(--bg-color); 
+    padding: 10px;
+}
+
+.text-size{
+    font-size: 20px !important;
+}
+
+.large-text-para{
+    font-size: 24px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+ul li{
+    color: var(--text-color);
+}
+
+table td, th{
+    color: var(--text-color);
+}
+
+#table-content{
+    /* border: 2px solid brown; */
+}
