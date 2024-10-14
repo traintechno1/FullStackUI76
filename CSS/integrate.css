@@ -1,0 +1,65 @@
+h2{
+    /* using color name */
+    /* color: coral; */
+
+    /* Hexadecimal code */
+    color: #f6983a;
+
+    /* color: #aaccdd; */
+    /* can be written as */
+    /* color: #acd; */
+
+    /* using rgb function */
+    /* color: rgb(123, 128, 237); */
+
+    /* using rgba function */
+    /* color: rgba(123, 128, 237, 0.35); */
+
+    /* using hsl function */
+    /* color: hsl(217, 71%, 56%); */
+
+    /* using hsla function */
+    /* color: hsla(217, 71%, 56%, 0.6) */
+
+    font-size: 20px;
+
+}
+
+.container{
+    font-size: 20px;
+    /* height: 300px;
+    width: 50%; */
+    height: 50vh;
+    width: 50vw;
+    padding: 0 10px;
+    border: 1px solid green;
+}
+
+.sub-container{
+    font-size: 30px;
+}
+
+.para{
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 45px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-decoration: 2px line-through #f00;
+    
+    /* To get Text Ellipsis */
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* Shadow to the text */
+    text-shadow: 2px 2px 5px green;
+
+    /* color of the text */
+    color: floralwhite;
+    
+    text-indent: 10px;
+
+    /* font-size: 1rem; */
+}
