@@ -1,0 +1,108 @@
+.box{
+    padding: 10px;
+    border: 1px dashed gray;
+    /* margin: 10px 0; */
+    width: 30%;
+    border-radius: 7px;
+    box-shadow: 4px 2px 6px lightgray;
+}
+
+.div1{
+    height: 150px;
+    color: red;
+}
+
+.div2{
+    height: 200px;
+    color: brown;
+}
+
+.div3{
+    height: 250px;
+    color: green;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+    row-gap: 10px;
+}
+
+.mario-img{
+    height: 150px;
+    width: 110px;
+    filter: blur(1px);
+    filter: brightness(1);
+    filter: contrast(0.5);
+    filter: grayscale(1);
+    filter: opacity(0.8);
+    filter: drop-shadow(0px 9px 9px gray);
+}
+
+.table-container{
+    overflow-y: scroll;
+    padding-top: 0;
+}
+
+table{ 
+    border-collapse: collapse;
+    color: black;
+    width: 100%;
+}
+
+th, td{
+    /* border: 1px solid white; */
+    padding: 5px 20px;
+}
+
+thead{
+    border: 1px solid gray;
+    position: sticky;
+    top: 0;
+}
+
+th{
+    color: white;
+    background-color: red;
+}
+
+td{
+    border: 1px solid gray;
+}
+
+
+.badge{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -11px;
+    left: 47%;
+    box-shadow: 0px 1px 7px gray;
+}
+
+.center-btn{
+    position: absolute;
+    bottom: -10px;
+    left: 43%;
+    border: unset;
+    background-color: #96f796;
+    color: #e23c3c;
+    padding: 7px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 11px green;
+}

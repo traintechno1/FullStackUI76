@@ -1,0 +1,87 @@
+.para1{
+    /* padding: 10px; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 5px;
+
+    /* gets applied 10px on all sides */
+    padding: 10px; 
+
+    /* gets 10px on top and bottom, 20px on left and right */
+    padding: 10px 20px;
+
+
+    /* 10px on Top, 20px on left right, 30px on bottom */
+    padding: 10px 20px 30px;
+
+
+    /* 10px on top, 20px on right, 30px on bottom, 40px on left */
+    padding: 10px 20px 30px 40px;
+
+    padding: 20px 5px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    border-left: 6px solid blueviolet;
+    
+    margin: 10px 30px 10px 40px;
+
+}
+
+.box{
+    height: 200px;
+    width: 200px;      
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 0px 30px;
+}
+
+.box1{
+    border: 1px solid gray; 
+}
+
+.box2{
+    border: 1px solid red; 
+}
+
+.box3{
+    border: 1px solid green; 
+}
+
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0px auto 40px; 
+}
+
+th, td{
+    border: 1px solid gray;
+    padding: 10px 30px;
+}
+
+td{
+    text-align: center;
+}
+
+thead tr{
+    background-color: tomato !important;
+    color: white !important;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.para1:nth-child(2){
+    background-color: aqua;
+}
+
+
+tr:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
