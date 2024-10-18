@@ -1,3 +1,9 @@
+.h2-gradient-text{
+    background: linear-gradient(to right, #54D0BF 0%, #F11815 17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .box{
     padding: 10px;
     border: 1px dashed gray;

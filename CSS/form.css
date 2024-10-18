@@ -1,0 +1,89 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #eeeeeb;
+}
+label{
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+    position: sticky;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    top: 0;
+    background: white;
+    padding: 1rem;
+}
+
+form{
+    border: 2px solid #989898;
+    border-radius: 0.5rem;
+    box-shadow: -1px 3px 17px 10px rgba(171,171,171,1);
+    width: 50vw;
+    background-color: white;
+    height: 90vh;
+    overflow-y: scroll;
+    padding: 0 2rem;
+}
+
+.component-label{
+    width: 23%;
+    display: inline-block;
+}
+
+input[type="text"], input[type="date"], select, textarea {
+    padding: 9px 10px;
+    width: 300px;
+    border-radius: 9px;
+    border: 1px solid #726372;
+}
+
+.color-input{
+    width: 320px;
+    border-radius: 7px;
+    height: 39px;
+}
+
+.reset-btn{
+    background: white;
+    border: 1px solid #726372;
+    padding: 0.5rem 1.5rem;
+    border-radius: 7px;
+}
+
+.submit-btn{
+    background: #49c549;
+    border: 1px solid #49c549;
+    padding: 0.5rem 1.5rem;
+    border-radius: 7px;
+    color: #390b0b;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+
+.component-gap{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.component-gap label{
+    flex: 2;
+}
+
+.component-gap input, textarea, select{
+    flex: 6;
+}

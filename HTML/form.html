@@ -4,143 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Example</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2>Form Example</h2>
-    <form>
-        <label for="firstName">First Name:</label>
-        <input id="firstName" 
-            type="text" 
-            name="firstName" 
-            placeholder="Enter First Name"
-            value="Karan"
-            readonly
-            minlength="2"
-            required
-         />
-        <br /><br />
-
-        <label for="lastName">Last Name:</label>
-        <input id="lastName" 
-            type="text" 
-            name="lastName"
-            pattern="[A-Z]{1}[a-z]+"
-            title="First Letter should be capital followed by letters only"
-            placeholder="Enter Last Name" />
-        <br /><br />
-
-        <label for="mobile">Mobile Number:</label>
-        <input id="mobile" 
-            name="mobile"
-            placeholder="Enter Mobile Number"
-            pattern="[6789][0-9]{9}"
-            title="Mobile Number should have 10 digits"
-            type="text"
-        >
-        <br /><br />
-
-        <label for="email">Email:</label>
-        <input id="email" 
-            name="email"
-            placeholder="Enter Email"
-            pattern="[a-zA-Z0-9]+[@]{1}[a-z]+[.]{1}[a-z]+"
-            title="Enter Email Address in valid format like xxxxxx@xxxxx.xxxx"
-            type="text"
-            required
-        >
-        <br /><br />
-
-        <label>Gender:</label>
+    <div style="display: flex; justify-content: center;">
+        <form>
+            <h2>Form Example</h2>
+            <div class="component-gap">
+                <label for="firstName" class="component-label">First Name:</label>
+                <input id="firstName" 
+                    type="text" 
+                    name="firstName" 
+                    placeholder="Enter First Name"
+                    value="Karan"
+                    readonly
+                    minlength="2"
+                    required
+                 />
+            </div>
         
-        <input id="male" 
-            name="gender"
-            value="male"
-            type="radio">
-        <label for="male">Male</label>
     
-        <input id="female" 
-            name="gender"
-            value="female"
-            type="radio">
-        <label for="female">Female</label>
+            <div class="component-gap">
+                <label for="lastName" class="component-label">Last Name:</label>
+                <input id="lastName" 
+                    type="text" 
+                    name="lastName"
+                    pattern="[A-Z]{1}[a-z]+"
+                    title="First Letter should be capital followed by letters only"
+                    placeholder="Enter Last Name" />
+            </div>
+    
+            <div class="component-gap">
+                <label for="mobile" class="component-label">Mobile Number:</label>
+                <input id="mobile" 
+                    name="mobile"
+                    placeholder="Enter Mobile Number"
+                    pattern="[6789][0-9]{9}"
+                    title="Mobile Number should have 10 digits"
+                    type="text"
+                >
+            </div>
+    
+            <div class="component-gap">
+                <label for="email" class="component-label">Email:</label>
+                <input id="email" 
+                    name="email"
+                    placeholder="Enter Email"
+                    pattern="[a-zA-Z0-9]+[@]{1}[a-z]+[.]{1}[a-z]+"
+                    title="Enter Email Address in valid format like xxxxxx@xxxxx.xxxx"
+                    type="text"
+                    required
+                >
+            </div>
+            
+            <label class="component-label">Gender:</label>
 
-        <input id="other" 
-            name="gender"
-            value="other"
-            type="radio">
-        <label for="other">Other</label>
-        <br /><br />
-
-
-        <label for="">Sports:</label>
-        <br/>
-
-        <input id="cricket" 
-            name="sports" 
-            value="cricket" 
-            type="checkbox" />
-        <label for="cricket">Cricket</label>
-        <br/>
-
-        <input id="Basketball" 
-            name="sports" 
-            value="Basket Ball" 
-            type="checkbox" />
-        <label for="Basketball">Basketball</label>
-        <br/>
-
-        <input id="soccer" 
-            name="sports" 
-            value="soccer" 
-            type="checkbox" />
-        <label for="soccer">Football</label>
-        <br/>
-
-        <input id="baseball" 
-            name="sports" 
-            value="baseball" 
-            type="checkbox" />
-        <label for="baseball">Base ball</label>
-        <br /><br />
-
-
-        <label for="city">City:</label>
-        <select id="city" name="city">
-            <option value="null">Please Select</option>
-            <option value="1">Pune</option>
-            <option value="2">Mumbai</option>
-            <option value="3">Delhi</option>
-            <option value="4">Banguluru</option>
-            <option value="5">Kolkata</option>
-            <option value="6">Chennai</option>
-            <option value="7">Hydrabad</option>
-        </select>
-        <br /><br />
-
+            <input id="male" 
+                name="gender"
+                value="male"
+                type="radio">
+            <label for="male">Male</label>
         
-        <label for="dob">Date Of Birth:</label>
-        <input id="dob"
-            type="date" 
-            name="dob"/>
-        <br /><br />
+            <input id="female" 
+                name="gender"
+                value="female"
+                type="radio">
+            <label for="female">Female</label>
+    
+            <input id="other" 
+                name="gender"
+                value="other"
+                type="radio">
+            <label for="other">Other</label>
 
-        <label for="color">Pick Color:</label>
-        <input id="color"
-            type="color" 
-            name="color"/>
-        <br /><br />
+            
+    
+            <br/>
+            <br/>
+            <label for="" class="component-label">Sports:</label>
+    
+            <div style="margin-left: 23%">
+                <input id="cricket" 
+                    name="sports" 
+                    value="cricket" 
+                    type="checkbox" />
+                <label for="cricket">Cricket</label>
+                <br/>
+        
+                <input id="Basketball" 
+                    name="sports" 
+                    value="Basket Ball" 
+                    type="checkbox" />
+                <label for="Basketball">Basketball</label>
+                <br/>
+        
+                <input id="soccer" 
+                    name="sports" 
+                    value="soccer" 
+                    type="checkbox" />
+                <label for="soccer">Football</label>
+                <br/>
+        
+                <input id="baseball" 
+                    name="sports" 
+                    value="baseball" 
+                    type="checkbox" />
+                <label for="baseball">Base ball</label>
+                <br /><br />
+            </div>
+    
+    
+            <div class="component-gap">
+                <label for="city" class="component-label">City:</label>
+                <select id="city" name="city">
+                    <option value="null">Please Select</option>
+                    <option value="1">Pune</option>
+                    <option value="2">Mumbai</option>
+                    <option value="3">Delhi</option>
+                    <option value="4">Banguluru</option>
+                    <option value="5">Kolkata</option>
+                    <option value="6">Chennai</option>
+                    <option value="7">Hydrabad</option>
+                </select>
+            </div>
 
-        <label>Resume Upload:</label>
-        <input type="file" />
-        <br /><br />
-
-        <label for="desc">Description</label>
-        <textarea placeholder="Description Text" id="desc" name="description" cols="50" rows="8"></textarea>
-        <br /><br />
-
-        <button type="reset">Reset</button>
-        <button type="submit">Submit</button>
-
-    </form>
+    
+            <div class="component-gap">
+                <label for="dob" class="component-label">Date Of Birth:</label>
+                <input id="dob"
+                    type="date" 
+                    name="dob"/>
+            </div>
+    
+            <div class="component-gap">
+                <label for="color" class="component-label">Pick Color:</label>
+                <input id="color"
+                    class="color-input"
+                    type="color" 
+                    name="color"/>
+            </div>
+    
+            <div class="component-gap">
+                <label class="component-label">Resume Upload:</label>
+                <input type="file" />
+            </div>
+    
+            <div class="component-gap">
+                <label for="desc" class="component-label">Description</label>
+                <textarea placeholder="Description Text" id="desc" name="description" cols="50" rows="8"></textarea>
+            </div>
+    
+            <div class="btn-container">
+                <button type="reset" class="reset-btn">Reset</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+    
+        </form>
+    </div>
 </body>
 </html>
