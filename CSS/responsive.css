@@ -1,0 +1,58 @@
+.responsive{
+    display: flex;
+    row-gap: 0.7rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.responsive-container{
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 30%;
+}
+
+@media (max-width:991px) and (min-width: 696px)  {
+    .responsive-container{
+        width: 45%
+    }    
+}
+
+@media (max-width:695px) {
+    .responsive-container{
+        width: 100%
+    }    
+}
+
+.background-changer{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: aquamarine;
+    font-size: 20px;
+    color: red;
+    width: 60vw;
+}
+
+@media (max-width: 1000px) and (min-width: 551px) {
+    .background-changer{
+        width: 97vw;
+        background-color: burlywood;
+        color: black;
+    }    
+}
+
+@media (max-width: 550px) {
+    .background-changer{
+        width: 97vw;
+        background-color:darksalmon;
+        color: black;
+        font-size: 0.9rem;
+    }    
+}
+
+#test{
+    background-color: beige;
+    padding: 1rem 0.5rem;
+}
