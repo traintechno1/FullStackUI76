@@ -1,0 +1,33 @@
+                            HTML
+        - Hypertext Markup Language
+        - File extention for creating an HTML document is .html or .htm
+
+        Syntax:
+        HTML Element
+        <tag_name attribute="value" attribute1="value" attribute2="value">  -> Opening Tag
+            content
+        </tag_name> -> Closing Tag
+
+        - HTML Tags allow nesting.
+        - HTML is used to create structure of the web page.
+
+        Text Formatting
+
+        Image
+        <img src="path of the image" alt="This is a alternate text" /> 
+
+
+        Anchor:
+
+        <a href="link to the page"> </a>
+
+        List:
+
+
+        Unordered List:
+            
+        Ordered List:
+
+        Description List:
+        
+

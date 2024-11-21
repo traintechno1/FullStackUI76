@@ -1,0 +1,213 @@
+                                    Javascript
+                    
+                - JS is a scripting language
+                - We can add a logic to the web pages with the help of JS.
+                - JS is a JIT(Just in time) language.
+                - JS file has a file extention as .js
+                - It can also be embeded in .html file with <script></script> tag.
+
+
+
+
+
+                                    Variable:
+        -- (Vari + able)-> Ability to change the value of the container.
+        -- Variable is a container which can store a value.
+
+
+        There are basically 3 keywords using which we can create a variable:
+            - var
+            - let
+            - const
+
+        Variable Declaration (Creating a variable):
+            var variable_name;
+
+
+
+
+
+                                "Dipika"
+
+
+                                "Havells"
+
+                                brand = "havells", 
+                                brand = "Samsung"
+
+
+
+
+        Operators:
+
+
+        Type of Operators:
+
+        1) Arithmetic Operators:
+
+            i) Addition (+): 
+                - it requires two operands to add them.
+
+                a + b
+
+
+            ii) Subsctraction (-): 
+                - it requires two operands to subtract them.
+
+                a - b
+            iii) Multiplication (*): 
+                - it requires two operands to multiply them.
+
+                a * b
+            iv) Division (/): 
+                - it requires two operands to divide them.
+
+                a / b
+
+
+
+            Logical Operators:
+
+            i) Logical AND(&&):
+
+            a      b       result
+          true    true     true
+          true    false    false
+          false   true     false
+          false   false    false
+
+          -- When all the values are true then only we have result as true,
+          -- even single value is false result of and is false.
+
+            ii) Logical OR (||):
+
+        a         b         result
+        true    true        true
+        true    false       true
+        false   true        true
+        false   false       false
+
+            -- when all the values are false then the result is false,
+            -- even a single value is true the result is true in OR.
+
+
+            iii) Logical NOT (!):
+
+            a           result
+            true        false
+            false       true
+
+
+        
+        Pre Increment 
+        ++value;
+
+        -- In Pre Increment first the value gets changed and then used
+
+        Post Increment
+        value++;
+
+        -- In Post Increment first the value gets used and then changed.
+
+
+
+
+        Conditional Statements:
+
+        Condition is nothing but based on some scenario perform certain task.
+
+        if(condition){
+
+        }
+        else{
+
+        }
+
+
+
+        if(condition){
+
+        }else if(condition){
+
+        }else if(condition){
+
+        }else{
+
+        }
+
+
+        Switch Case:
+
+        it is similar to else if ladder, but it is more cleaner way of writing else if ladder.
+
+
+        switch(value){
+            case 1:
+
+            case 2:
+
+            case 3:
+
+            case 4:
+
+
+        }
+
+
+        Loop:
+
+        for(initialise; check the condition; increment/decrement){
+
+        }        
+
+
+
+        Function:
+
+        function is a piece of code that we write once and reuse as many times as we want.
+
+
+        function function_name(){
+
+        }
+
+        second way of function creation:
+
+        Arrow Function->
+
+        let fuction_name = () => {
+
+        }
+
+
+        Array:
+
+        let a1 = 100;
+        let a2 = 200;
+        let a3 = 300;
+        let a4 = 400;
+        let a5 = 500;
+        let a6 = 600;
+        let a7 = 700;
+
+        let a = [ 100, 200, 300, 400, 500, 600, 700 ]; //this is an array
+
+
+        Object:
+
+    - Object in JS is collection of key and value pairs, where key represents what data is present, 
+    and value is the actual value
+
+    to create an object we use {}.
+
+    ex:
+    let obj = {
+        first_name: '',
+        last_name: '',
+    }
+
+    DOM:->
+
+    Document Object Model
+
+    document

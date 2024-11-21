@@ -1,0 +1,102 @@
+                                    CSS
+        
+                - Cascading Style sheet
+
+            CSS is a key value pair of properties:
+
+            key: value,
+            key: value,
+            key: value,
+
+            key represents property of the CSS and value is value of the CSS property.
+
+            ex:
+
+            font-size: 20px;
+
+
+        CSS can be added in three different ways in the document.
+
+        - inline CSS
+        - internal CSS
+        - external CSS
+
+    1) Inline CSS
+        - it gets added directly inside the tag of the HTML with style attribute.
+
+    2) Internal CSS
+        - is used to write CSS within the same HTML document using <style></style>.
+
+        here,
+            we need to use CSS Selectors to provide to which element the css should gets applied.
+
+        i) Using Tag Name:
+            <style>
+                div{
+
+                }
+            </style>
+
+            here, div is a selector by tag name.
+        
+        ii) Using Class:
+            - in html tag give class as a attribute ex: class="para" then in css
+                .para{
+
+                }
+            here (.) represents that it is a class.
+        
+        iii) Using Id:
+            - this is generally used to apply some styles to only one element in HTML Document.
+                #big-text{
+                    // styles
+                }
+
+    3) External CSS
+        - Here we create seperate file the extention is .css
+        - then include that file in HTML to apply that CSS.
+
+
+
+
+        CSS Color:
+
+    1) by using color name:
+        around 140 colors
+    
+    2) using hexadecimal code:
+
+        #000000
+
+        16*16*16*16*16*16
+
+        RGB
+
+    3) using rgb function:
+
+        rgb(0-255,0-255,0-255);
+
+    4) using hsl function:
+
+        hsl(0-360, 0-100%, 0,100%);
+
+
+        Size units:
+
+        i) px:
+        ii) %:
+        iii) em:
+        iv) rem:
+        v) vh
+        vi) vw
+
+        vii) cm
+        viii) in
+        ix) mm
+
+
+
+        CSS Box Model:
+
+        
+
